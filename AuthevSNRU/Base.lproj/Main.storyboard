@@ -132,7 +132,11 @@
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <items>
                                     <navigationItem title="Register" id="CK3-np-RpC">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" image="ArrowBack" id="JJx-ep-Wf4"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" image="ArrowBack" id="JJx-ep-Wf4">
+                                            <connections>
+                                                <action selector="backButton:" destination="Ff2-ys-nnL" id="gXL-yV-9Cg"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -140,6 +144,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="l9N-dk-VEO"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backMain" id="Zec-Yt-K6y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NUE-9z-A8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
