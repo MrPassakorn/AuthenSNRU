@@ -124,6 +124,19 @@
                     <view key="view" contentMode="scaleToFill" id="Sqd-Wl-p5W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9WD-VV-fip">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <items>
+                                    <navigationItem title="Register" id="CK3-np-RpC">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" image="ArrowBack" id="JJx-ep-Wf4"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="l9N-dk-VEO"/>
                     </view>
@@ -134,6 +147,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ArrowBack" width="72" height="72"/>
         <image name="Logo" width="170.5" height="170.5"/>
         <image name="wallpaper" width="227.5" height="341"/>
     </resources>
