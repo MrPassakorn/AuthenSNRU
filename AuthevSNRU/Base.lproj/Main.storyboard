@@ -111,6 +111,21 @@
             </objects>
             <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
         </scene>
+        <!--Register-->
+        <scene sceneID="Ig6-Th-n4d">
+            <objects>
+                <viewController title="Register" id="Ff2-ys-nnL" customClass="RegisterViewController" customModule="AuthevSNRU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sqd-Wl-p5W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="l9N-dk-VEO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NUE-9z-A8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="21"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="170.5" height="170.5"/>
