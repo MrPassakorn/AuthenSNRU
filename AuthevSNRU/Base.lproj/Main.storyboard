@@ -194,6 +194,9 @@
                         <viewLayoutGuide key="safeArea" id="l9N-dk-VEO"/>
                     </view>
                     <connections>
+                        <outlet property="nameTextField" destination="mYH-zd-pS1" id="3cU-si-4b8"/>
+                        <outlet property="prsswordTextField" destination="SRk-g5-K4o" id="ugR-8t-h1f"/>
+                        <outlet property="userTextField" destination="xfI-o0-Sgh" id="zDQ-6V-Byb"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backMain" id="Zec-Yt-K6y"/>
                     </connections>
                 </viewController>
