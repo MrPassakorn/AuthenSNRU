@@ -45,7 +45,15 @@ class RegisterViewController: UIViewController {
     }//upload Button
     func myAlert(titleString: String,massageString: String) -> Void {
         print("title =\(titleString),message =\(massageString)")
-    }
+        let alert = UIAlertController(title: titleString, message: massageString, preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        
+        present(alert,animated: true,completion: nil)
+        
+    }   //my Alert
     @IBAction func backButton(_ sender: UIBarButtonItem) {
         
         print("You click Back")
